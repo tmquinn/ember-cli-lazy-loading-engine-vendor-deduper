@@ -12,8 +12,7 @@
   "repository":
     "https://github.com/tmquinn/ember-cli-lazy-loading-engines-vendor-deduper",
   "scripts": {
-    "lint:js":
-      "eslint ./*.js addon addon-test-support app config lib server test-support tests",
+    "lint:js": "eslint ./*.js lib test",
     "test": "mocha"
   },
   "dependencies": {
