@@ -2,21 +2,21 @@
   "name": "ember-cli-lazy-loading-engine-vendor-deduper",
   "version": "0.0.0",
   "description": "De-duplicates transitive addon code from engine-vendor.js",
-  "keywords": [
-    "ember-addon"
-  ],
+  "keywords": ["ember-addon"],
   "license": "MIT",
   "author": "Quinn C. Hoyer <quinn@themightyquinn.com>",
   "directories": {
     "doc": "doc",
     "test": "tests"
   },
-  "repository": "https://github.com/tmquinn/ember-cli-lazy-loading-engines-vendor-deduper",
+  "repository":
+    "https://github.com/tmquinn/ember-cli-lazy-loading-engines-vendor-deduper",
   "scripts": {
     "build": "ember build",
-    "lint:js": "eslint ./*.js addon addon-test-support app config lib server test-support tests",
+    "lint:js":
+      "eslint ./*.js addon addon-test-support app config lib server test-support tests",
     "start": "ember serve",
-    "test": "testem"
+    "test": "mocha"
   },
   "dependencies": {
     "ember-cli-babel": "^6.6.0",
@@ -32,7 +32,6 @@
     "ember-cli-htmlbars": "^2.0.1",
     "ember-cli-htmlbars-inline-precompile": "^1.0.0",
     "ember-cli-inject-live-reload": "^1.4.1",
-    "ember-cli-qunit": "^4.1.1",
     "ember-cli-shims": "^1.2.0",
     "ember-cli-sri": "^2.1.0",
     "ember-cli-uglify": "^2.0.0",
@@ -42,8 +41,6 @@
     "ember-resolver": "^4.0.0",
     "ember-source": "~2.18.0",
     "eslint-config-prettier": "^2.9.0",
-    "eslint-plugin-ember": "^5.0.0",
-    "eslint-plugin-node": "^5.2.1",
     "eslint-plugin-prettier": "^2.4.0",
     "loader.js": "^4.2.3",
     "mocha": "^4.1.0",
