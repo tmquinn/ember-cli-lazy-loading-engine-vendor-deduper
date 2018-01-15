@@ -1,17 +1,17 @@
 {
   "name": "ember-cli-lazy-loading-engine-vendor-deduper",
   "version": "0.0.0",
-  "description": "The default blueprint for ember-cli addons.",
+  "description": "De-duplicates transitive addon code from engine-vendor.js",
   "keywords": [
     "ember-addon"
   ],
   "license": "MIT",
-  "author": "",
+  "author": "Quinn C. Hoyer <quinn@themightyquinn.com>",
   "directories": {
     "doc": "doc",
     "test": "tests"
   },
-  "repository": "",
+  "repository": "https://github.com/tmquinn/ember-cli-lazy-loading-engines-vendor-deduper",
   "scripts": {
     "build": "ember build",
     "lint:js": "eslint ./*.js addon addon-test-support app config lib server test-support tests",
