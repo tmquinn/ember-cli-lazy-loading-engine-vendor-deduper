@@ -1,3 +1,4 @@
+const os = require('os');
 const fs = require('fs');
 const path = require('path');
 const assert = require('assert');
@@ -32,5 +33,9 @@ define('herp/derp', function() {});`;
     });
   });
 
-  describe('Acceptance test', function() {});
+  describe('Acceptance tests', function() {
+    it('de-dupes a typical scenario', function() {
+      const dist = path.join(os.tmpdir(), 'fu-manchu', 'dist');
+    });
+  });
 });
